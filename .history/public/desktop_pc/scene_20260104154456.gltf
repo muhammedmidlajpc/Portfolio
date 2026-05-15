@@ -4,7 +4,7 @@
       "bufferView": 2,
       "componentType": 5126,
       "count": 24,
-      "max": [
+      "max": [F
         1.0,
         1.0,
         1.0
@@ -51535,7 +51535,7 @@
   "buffers": [
     {
       "byteLength": 4282040,
-      "uri": "./scene.bin"
+      "uri": "scene.bin"
     }
   ],
   "images": [
