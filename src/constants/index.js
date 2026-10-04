@@ -34,8 +34,8 @@ import {
 } from "../assets";
 
 import softroniics from "../assets/company/softroniics.jpeg";
-import d_rube_labs from "../assets/company/d_rube_labs.jpg";
-import dayscholars from "../assets/company/dayscholars.png";
+import ds from "../assets/company/ds.png";
+import drube from "../assets/company/drube.jpeg";
 
 export const navLinks = [
   {
@@ -132,6 +132,32 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Web Developer",
+    company_name: "Dayscholars, Valanchery",
+    icon: ds,
+    iconBg: "#383E56",
+    date: "Jan 2026 - Present",
+    points: [
+      "Develop React and TypeScript features for IQED (e-learning management) and Highway Buddy (restaurant discovery).",
+      "Build validated forms with React Hook Form and Zod, API integrations with TanStack Query, and data-driven admin tables with TanStack Table and nuqs.",
+      "Extend Fastify and TypeScript REST APIs with request validation, Prisma data models, and access checks."
+    ]
+  },
+  {
+    title: "Web Developer",
+    company_name: "DRube Labs, Kochi",
+    icon: drube,
+    iconBg: "#383E56",
+    date: "May 2025 - Dec 2025",
+    points: [
+      "Designed and built an internal employee management and analytics dashboard from scratch using Node.js, Express, MongoDB, and React, with RESTful APIs covering full CRUD, schema validation, and error handling.",
+      "Implemented JWT authentication with secure cookie-based token storage, protected-route middleware, and role-based access control.",
+      "Integrated Socket.IO for real-time updates on live map and dashboard components.",
+      "Added inactivity-based session timeout and a centralized user activity log for security and auditing.",
+      "Resolved backend issues including password hashing errors, authentication edge cases, and deployment failures."
+    ]
+  },
   {
     title: "Full-Stack Developer Intern",
     company_name: "Softroniics",
