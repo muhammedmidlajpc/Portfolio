@@ -134,7 +134,7 @@ const technologies = [
 const experiences = [
   {
     title: "Web Developer",
-    company_name: "Dayscholars, Valanchery",
+    company_name: "DayScholars Innovations Pvt. Ltd., Calicut",
     icon: ds,
     iconBg: "#383E56",
     date: "Jan 2026 - Present",
@@ -146,21 +146,22 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "DRube Labs, Kochi",
+    company_name: "D-Rube Labs, Kochi",
     icon: drube,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "May 2025 - Dec 2025",
     points: [
-      "Designed and built an internal employee management and analytics dashboard from scratch using Node.js, Express, MongoDB, and React, with RESTful APIs covering full CRUD, schema validation, and error handling.",
-      "Implemented JWT authentication with secure cookie-based token storage, protected-route middleware, and role-based access control.",
-      "Integrated Socket.IO for real-time updates on live map and dashboard components.",
-      "Added inactivity-based session timeout and a centralized user activity log for security and auditing.",
-      "Resolved backend issues including password hashing errors, authentication edge cases, and deployment failures."
-    ]
+      "Collaborated with design and development teams to create user-friendly interfaces.",
+      "Optimized application performance and improved user experience.",
+      "Debugged and resolved issues in existing applications.",
+      "Collaborated with the team to ship production ready features and maintain scalable architecture.",
+      "Built and maintained the company’s primary admin management dashboard using MERN stack and modern frontend tooling.",
+      "Worked across both frontend and backend to improve performance, usability, and internal operations."
+    ],
   },
-  {
+    {
     title: "Full-Stack Developer Intern",
-    company_name: "Softroniics",
+    company_name: "Softroniics, Perinthalmanna",
     icon: softroniics,
     iconBg: "#ffffff",
     date: "Aug 2024 - Feb 2025",
@@ -174,35 +175,6 @@ const experiences = [
       "Utilized Git for version control and collaborated effectively within a development team.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "D-Rube Labs",
-    icon: d_rube_labs,
-    iconBg: "#ffffff",
-    date: "May 2025 - Dec 2025",
-    points: [
-      "Collaborated with design and development teams to create user-friendly interfaces.",
-      "Optimized application performance and improved user experience.",
-      "Debugged and resolved issues in existing applications.",
-      "Collaborated with the team to ship production ready features and maintain scalable architecture.",
-      "Built and maintained the company’s primary admin management dashboard using MERN stack and modern frontend tooling.",
-      "Worked across both frontend and backend to improve performance, usability, and internal operations."
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "DayScholars Innovations Pvt. Ltd.",
-    icon: dayscholars,
-    iconBg: "#ffffff",
-    date: "Jan 2026 - Present",
-    points: [
-      "Collaborate with cross-functional teams to design and implement web applications that meet client requirements.",
-      "Develop and maintain scalable and efficient web applications using modern technologies.",
-      "Participate in code reviews and contribute to improving code quality and best practices.",
-      "Troubleshoot and debug issues in existing applications, ensuring optimal performance and user experience.",
-      "Stay updated with the latest industry trends and technologies to continuously enhance skills and contribute to innovative solutions."
-    ]
-  }
 ];
 
 const projects = [
